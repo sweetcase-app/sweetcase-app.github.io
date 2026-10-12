@@ -3,6 +3,8 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="icon" type="image/png" sizes="96x96" href="favicon.png">
+<link rel="apple-touch-icon" href="icon.png">
 <title>SweetCase — Link not valid</title>
 <style>
   * { box-sizing: border-box; margin: 0; }
@@ -14,7 +16,9 @@
     align-items: center; justify-content: center; margin: 0 auto 18px; }
   h1 { font-size: 1.5rem; color: #B23B3B; margin-bottom: 14px; }
   p { margin-bottom: 10px; color: #56504A; }
-  .brand { margin-top: 22px; color: #8C847C; font-size: .85rem; font-weight: 600; letter-spacing: .3px; }
+  .brand { margin-top: 22px; color: #8C847C; font-size: .85rem; font-weight: 600; letter-spacing: .3px;
+    display: flex; align-items: center; justify-content: center; gap: 8px; }
+  .brand img { width: 24px; height: 24px; border-radius: 6px; }
 </style>
 </head>
 <body>
@@ -26,7 +30,7 @@
     <p>This confirmation link is invalid or has already been used.</p>
     <p>Questo link di conferma non è valido o è già stato usato.</p>
     <p>Este enlace de confirmación no es válido o ya se ha usado.</p>
-    <div class="brand">SweetCase</div>
+    <div class="brand"><img src="icon.png" alt="">SweetCase</div>
   </div>
 </body>
 </html>
